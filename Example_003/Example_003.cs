@@ -14,5 +14,5 @@ string ConvertDecToBin(int number)
 Console.Write("Введите число ");
 int n = int.Parse(Console.ReadLine()!);
 
-Console.WriteLine(ConvertDecToBin(n));
+Console.WriteLine($"{ConvertDecToBin(n)} - переведенное число");
 
