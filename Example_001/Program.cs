@@ -35,7 +35,6 @@ int[] ReverseArray2(int[] inArray)
     return result;
 }
 
-Console.Clear();
 int[] array = GetArray(5, -10, 10);
 Console.WriteLine(String.Join(", ", array));
 ReverseArray1(array);
